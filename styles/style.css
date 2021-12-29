@@ -1,0 +1,41 @@
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  width: 64px;
+  z-index: 9;
+}
+
+.slick-prev:before {
+  content: "";
+  /* padding: 4px;
+  color: rgba(16, 163, 59, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  font-size: 20px;
+  -webkit-box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.slick-next:before {
+  content: "";
+  /* padding: 4px;
+  color: rgba(16, 163, 59, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  font-size: 20px;
+  -webkit-box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 2px 15px 0px rgba(0, 0, 0, 0.75); */
+}
